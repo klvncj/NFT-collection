@@ -1,0 +1,137 @@
+nav {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+}
+.navcontent {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e8e2df;
+  opacity: 90%;
+}
+.thatholdscompanylogo {
+  width: 80px;
+  padding: 5px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.complogo {
+  border-radius: 50px;
+}
+.holdsuolist ul {
+  display: flex;
+  opacity: 100%;
+}
+.holdsuolist ul li {
+  margin: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 10px;
+}
+.holdsuolist ul li:hover {
+  background-color: #c4bebc;
+  color: aliceblue;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+.holddash {
+  display: flex;
+  justify-content: center;
+}
+.azukidash {
+  width: 2000px;
+  height: 350px;
+}
+.holdscard{
+    width: 350px;
+    height: 400px;
+    margin: 50px;
+    border: black 1px solid;
+    padding: 10px;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 black;
+}
+.holdscard img{
+    padding-left: 9px;
+    border-radius: 50%;
+}
+
+.holdsthat{
+    display: flex;
+}
+
+form{
+    display: flex;
+}
+form input{
+    background-color: #eae7e5;
+    border-bottom: 5px solid black;
+    color: black;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+footer div h2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+footer div{
+    justify-content: center;
+    align-items: center;
+}
+.submitbtn{
+    width: 100px;
+    background-color:  rgb(98, 150, 150);
+    border: 2px solid black;
+    box-shadow: 0 3px 2px 1px  black;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
